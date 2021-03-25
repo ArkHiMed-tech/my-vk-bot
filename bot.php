@@ -13,7 +13,7 @@ function vk_msg_send($peer_id,$text){
 $data = json_decode(file_get_contents('php://input'));
 switch ($data->type) {  
 	case 'confirmation': 
-		echo $confirmation_token; 
+		echo '258487ca'; 
 	break;  
 		
 	case 'message_new': 
